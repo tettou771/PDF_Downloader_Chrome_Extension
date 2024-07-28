@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "Current Page PDF Downloader",
+    "version": "1.4",
+    "description": "Download all PDF links from the current page",
+    "permissions": [
+      "activeTab",
+      "downloads",
+      "scripting"
+    ],
+    "action": {
+      "default_icon": "icon.svg",
+      "default_title": "Download PDFs from this page"
+    },
+    "icons": {
+      "48": "icon.svg",
+      "128": "icon.svg"
+    },
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
